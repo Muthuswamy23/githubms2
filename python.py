@@ -1,5 +1,5 @@
 # opening file in read mode
-#file=open("c:\\Users\\ELCOT\\Documents\\RMgit\\githubms2\\new.txt","r")
+#file=open("c:/\Users\\ELCOT\\Documents\\RMgit\\githubms2\\new.txt","r")
 #content=file.read()
 #print(content)
 #file.close
@@ -20,3 +20,9 @@ file = open("c:\\Users\\ELCOT\\Documents\\RMgit\\githubms2\\new.txt", "r")
 for line in file:
     print(line.strip())  # strip removes \n
 file.close()
+
+
+with open("c:\\Users\\ELCOT\\Documents\\RMgit\\githubms2\\index.html", "w") as file:
+    file.write("<html>\n<head>\n<title>Muthuswamy</title>\n</head>\n<body><h1>Hi i'm MUTHUSWAMY</h1></body></html>")
+
+
