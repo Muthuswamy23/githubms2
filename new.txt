@@ -1,0 +1,5 @@
+
+ Hello this is Muthuswamy 
+This is the new line added
+if we open the file in write mode the old datas are been deleted
+but if we open in append mode it won't delete the old file
